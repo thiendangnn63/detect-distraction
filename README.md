@@ -12,7 +12,7 @@ pip install -r required/requirements.txt
 
 3. Run the application:
 ```bash
-python main.py
+python iris_tracking.py
 
 ```
 
@@ -39,6 +39,7 @@ The application runs in the background. You can control it from anywhere using t
 
 * **Ctrl + Shift + H**: Pause or Resume tracking.
 * **Ctrl + Shift + R**: Open the Recalibration and Settings window.
+* **Ctrl + Shift + D**: Open the Tracking window to see real-time iris tracking
 
 ### Building from Source
 
@@ -46,7 +47,7 @@ To compile the application into a standalone executable (`.exe`):
 
 1. Ensure you have the `required` folder containing `face_landmarker.task` and `requirements.txt`.
 2. Run the build script:
-* **Windows:** Double-click `build_hawkeye.bat`.
+* **Windows:** Double-click `build_app.bat`; this will create a Python 3.12 virtual environment in the directory you cloned the repository, download all required libraries then build the app.
 
 
 3. The output executable will be located in the `dist` folder.
