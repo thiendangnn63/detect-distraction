@@ -49,5 +49,4 @@ To compile the application into a standalone executable (`.exe`):
 2. Run the build script:
 * **Windows:** Double-click `build_app.bat`; this will create a Python 3.12 virtual environment in the directory you cloned the repository, download all required libraries then build the app.
 
-
 3. The output executable will be located in the `dist` folder.
